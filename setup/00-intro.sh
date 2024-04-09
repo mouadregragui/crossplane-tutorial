@@ -42,10 +42,10 @@ rm -f .env
 # Control Plane Cluster #
 #########################
 
-kind create cluster --config kind.yaml
+#kind create cluster --config kind.yaml
 
-kubectl apply \
-    --filename https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/kind/deploy.yaml
+#kubectl apply \
+#    --filename https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/kind/deploy.yaml
 
 ##############
 # Crossplane #
